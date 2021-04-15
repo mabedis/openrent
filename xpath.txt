@@ -1,0 +1,2 @@
+response.xpath('//span[@class = "banda pt listing-title"]//text()').extract()
+
