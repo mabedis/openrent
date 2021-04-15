@@ -1,2 +1,8 @@
-response.xpath('//span[@class = "banda pt listing-title"]//text()').extract()
+property_title = response.xpath('//span[@class = "banda pt listing-title"]//text()').extract()
+short desc = response.xpath('//p[@class = "listing-desc"]//text()').extract()
+price = response.xpath('//div[@class = "pim pl-title"]//text()').extract()
+listed on = response.xpath('//div[@class = "timeStamp"]//text()').extract()
+bathandbed = response.xpath('.//table[@class = "table table-striped intro-stats"]//text()').extract()
+long_description = response.xpath('//div[@class = "description"]//text()').extract()
+photos = response.xpath('//a[@class = "photos thumbnail mfp-image"]/@href').extract()
 
