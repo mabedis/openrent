@@ -5,4 +5,4 @@ listed on = response.xpath('//div[@class = "timeStamp"]//text()').extract()
 bathandbed = response.xpath('.//table[@class = "table table-striped intro-stats"]//text()').extract()
 long_description = response.xpath('//div[@class = "description"]//text()').extract()
 photos = response.xpath('//a[@class = "photos thumbnail mfp-image"]/@href').extract()
-
+ip rotation = response.xpath('//span[@class= "address"]//text()').extract()
