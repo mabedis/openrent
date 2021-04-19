@@ -1,6 +1,6 @@
-__author__ = "Sreeja"
+__author__ = "Alfin"
 __copyright__ = ""
-__maintainer__ = "Sreeja"
+__maintainer__ = "Alfin"
 __version__ = "0.1"
 
 from .common_libraries import *
